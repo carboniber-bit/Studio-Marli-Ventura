@@ -3,8 +3,8 @@
   "short_name": "Marli Ventura",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#120b18",
-  "theme_color": "#1a0f2b",
+  "background_color": "#FFF6F7",
+  "theme_color": "#FFF6F7",
   "icons": [
     {
       "src": "/favicon.svg",
