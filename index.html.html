@@ -1,0 +1,676 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Studio de Beleza Marli Ventura | Especialista Premiada em Alisamento e Cronograma Capilar</title>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<!-- FontAwesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              plumDark: '#120b18',
+              plumBase: '#1a0f24',
+              plumSurface: '#241432',
+              plumCard: '#1f112e',
+              plumCardElevated: '#28163c',
+              borderDelicate: '#44225a',
+              roseBorder: '#5c2d73',
+              gold: '#F2C94C',
+              goldLight: '#FEF08A',
+              goldDark: '#D97706',
+              roseGold: '#F4B5C6',
+              roseAccent: '#E06287',
+              mauve: '#B784A7',
+              lavenderLight: '#F3E8FF'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="typography">
+    .font-serif-luxury {
+      font-family: 'Cormorant Garamond', serif;
+      letter-spacing: -0.01em;
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 45%, #D97706 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .rose-gold-gradient-text {
+      background: linear-gradient(135deg, #FFE4E6 0%, #F4B5C6 50%, #E06287 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+<style data-purpose="effects">
+    .glass-luxury-plum {
+      background: rgba(26, 15, 36, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .gold-border-glow {
+      box-shadow: 0 0 25px -4px rgba(245, 158, 11, 0.3);
+    }
+    .rose-border-glow {
+      box-shadow: 0 0 25px -4px rgba(224, 98, 135, 0.25);
+    }
+
+    /* Scroll Reveal & Smooth Fade-in-up animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .scroll-reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: transform, opacity;
+    }
+
+    .scroll-reveal.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Hero immediate entrance */
+    .hero-animate-in {
+      animation: fadeInUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    /* Progressive stagger delays */
+    .delay-100 { transition-delay: 100ms; animation-delay: 100ms; }
+    .delay-200 { transition-delay: 200ms; animation-delay: 200ms; }
+    .delay-300 { transition-delay: 300ms; animation-delay: 300ms; }
+    .delay-400 { transition-delay: 400ms; animation-delay: 400ms; }
+    .delay-500 { transition-delay: 500ms; animation-delay: 500ms; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .scroll-reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+      .hero-animate-in {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    }
+  </style>
+<!-- END: Custom Styles -->
+<link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/aida/ALJJyrB1dZFEnX0IqGIA776qu7mAlJ_XiUKic0FumVbIb8c_wpI88RLjKZmna6AJ52NB6rsvYfiCIU6rQNLojMvTEdr8gZy2ybIvGqvd5P4qbyac5CSCk_ad7jRDS1PKZ3KIfiK3B8o9oIPGA7KljC6ICaVh9VVpMTYGIGP8AUCZ2QriW65HNpTtrDZkmiFn2tk2DquDCgNC1WpfUBwuYW2CKVhsIXNFtHEsFwYqROPq32E"><link rel="apple-touch-icon" sizes="180x180" href="https://lh3.googleusercontent.com/aida/ALJJyrDZC6joDe2xN9r9yN0stt_2Cuse2v0u8enwEOxOWMdxXi6AOUuu3OzL3ZsXPB4wZNs2Vjk98dW9eOJd8UXttTfXQh167n8-86njQnnMr_zTRtftMsLXDgBwLEHRin_t8aJD9JET2kb3PpoSLPegjJ0ZpqljqWmMyP64cxBdbIgzsQW90iRPiudiUSF3MCeqzUr_0-vUcFq1S9tegmpEJP_vl6fnwJT1S_AoFLpHslWj"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1a0f2b"><meta name="description" content="Studio de Beleza Marli Ventura em Osasco. Especialista premiada em Liso Fotônico, Cronograma Capilar com Ozonioterapia e estética avançada."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Marli Ventura"></head>
+<body class="bg-[#120b18] text-[#e8def0] font-sans antialiased selection:bg-[#d97706] selection:text-white">
+<!-- BEGIN: MainHeader -->
+<header class="fixed top-0 left-0 w-full z-50 glass-luxury-plum border-b border-[#44225a]/70 transition-all duration-300" data-purpose="site-navigation">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3.5 group" href="#">
+<img alt="Studio de Beleza Marli Ventura" class="h-14 w-14 object-contain rounded-full border border-amber-400/40 group-hover:scale-105 transition-transform shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0-lQoXHl2wjDROPnCY7ke0wtPM2ExRwJQvJPIfItiRVfs-QzqVWCXsr7ydRiHPxd9BajRA4P4OT8JCKVVSd_wNnQnjwIVgTL3evORyKmusewYt91eddpzLMZv4cSB6kfIJxy6r-N9-ez2Zu7um_e6xoI-mBuh_QeESTGBHtUfGzvAJHpseAl73Rzh1qRNRdbUe3dTAs9Tw_UDeBONyDC_2uf7hI2IIHPpmzQepG0-MmFs2XyuiQjc">
+<div class="flex flex-col">
+<span class="font-serif-luxury text-2xl font-bold tracking-wider text-white uppercase leading-none">Marli Ventura</span>
+<span class="text-xs uppercase tracking-widest text-[#f4b5c6] mt-1 font-semibold">Studio de Beleza</span>
+</div>
+</a>
+<!-- Desktop Navigation Links -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center space-x-8 text-sm font-medium text-[#d8cae6]">
+<a class="hover:text-amber-300 transition-colors" href="#inicio">Início</a>
+<a class="hover:text-amber-300 transition-colors" href="#proposito">Diferenciais</a>
+<a class="hover:text-amber-300 transition-colors" href="#sobre">Sobre Marli</a>
+<a class="hover:text-amber-300 transition-colors" href="#tratamentos">Tratamentos</a>
+<a class="hover:text-amber-300 transition-colors" href="#depoimentos">Avaliações</a>
+<a class="hover:text-amber-300 transition-colors" href="#contato">Localização</a>
+</nav>
+<!-- Action WhatsApp CTA Button -->
+<div class="flex items-center gap-3">
+<a class="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-emerald-950/60 hover:shadow-emerald-600/40 transition-all duration-300 transform hover:-translate-y-0.5 border border-emerald-400/30" href="https://wa.me/5511949825624?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20Marli%20Ventura!" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-whatsapp text-lg"></i>
+<span>Agendar Horário</span>
+</a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection (The Purpose, Hierarchy & Visual Balance) -->
+<section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-gradient-to-b from-[#180e22] via-[#120b18] to-[#170e20]" data-purpose="hero-section" id="inicio">
+<!-- Background Ambient Glows (Plum, Soft Rose & Champagne) -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[520px] bg-gradient-to-tr from-pink-600/15 via-purple-700/20 to-amber-500/15 blur-[140px] rounded-full pointer-events-none"></div>
+<div class="absolute -top-20 -left-20 w-96 h-96 bg-purple-900/20 blur-[120px] rounded-full pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Left Content (Hierarchy & Clarity) -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<!-- Trust Badge (Google 5.0 + Award) -->
+<div class="hero-animate-in flex flex-wrap items-center gap-3 p-2.5 sm:px-4 sm:py-2.5 rounded-2xl bg-[#1f112e]/90 border border-[#44225a] backdrop-blur-md shadow-lg shadow-purple-950/40 text-xs sm:text-sm"><div class="flex items-center gap-2 text-[#d8cae6]"><span class="flex items-center justify-center w-6 h-6 rounded-full bg-purple-900/40 text-amber-300 border border-[#5c2d73]"><i class="fa-regular fa-clock text-xs"></i></span><span class="text-[#c7b5da] font-medium">Horário local:</span><span id="hero-live-clock" class="font-mono font-semibold text-white tracking-wider">--:--:--</span></div><span class="hidden sm:inline-block text-[#44225a]">|</span><div id="hero-status-badge" class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-500/40 bg-emerald-500/20 text-emerald-300 font-semibold transition-all duration-300"><span id="hero-status-dot" class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span></span><span id="hero-status-text">Verificando status...</span></div><script>(function updateStudioStatus() { const clockEl = document.getElementById('hero-live-clock'); const badgeEl = document.getElementById('hero-status-badge'); const dotEl = document.getElementById('hero-status-dot'); const textEl = document.getElementById('hero-status-text'); function tick() { const now = new Date(); if (clockEl) { clockEl.textContent = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' }); } const day = now.getDay(); const hour = now.getHours(); const minute = now.getMinutes(); const totalMinutes = hour * 60 + minute; const isOpen = (day >= 1 && day <= 6) && (totalMinutes >= 9 * 60 && totalMinutes < 19 * 60); if (badgeEl && textEl && dotEl) { if (isOpen) { badgeEl.className = 'inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-500/40 bg-emerald-500/20 text-emerald-300 font-semibold transition-all duration-300'; dotEl.innerHTML = '<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>'; textEl.textContent = 'Aberto Agora • Atendimento até 19h'; } else { badgeEl.className = 'inline-flex items-center gap-2 px-3 py-1 rounded-full border border-rose-500/40 bg-rose-500/20 text-rose-300 font-semibold transition-all duration-300'; dotEl.innerHTML = '<span class="relative inline-flex rounded-full h-2 w-2 bg-rose-400"></span>'; textEl.textContent = day === 0 ? 'Fechado Hoje • Abre Segunda às 09h' : (totalMinutes < 9 * 60 ? 'Fechado no Momento • Abre às 09h' : 'Fechado no Momento • Abre Amanhã às 09h'); } } } tick(); setInterval(tick, 1000); })();</script></div><div class="hero-animate-in inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-amber-400/50 bg-[#241432]/90 shadow-md backdrop-blur-md">
+<span class="flex text-amber-400 text-xs">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</span>
+<span class="text-xs sm:text-sm font-semibold text-[#fef08a] tracking-wide">5.0 no Google (30 Avaliações) • Prêmio Lisos de Ouro</span>
+</div>
+<!-- Headline: The Purpose -->
+<h1 class="hero-animate-in delay-100 font-serif-luxury text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.15] text-white">Cabelos impecáveis, saudáveis e com <span class="gold-gradient-text">brilho espelhado</span> com quem é especialista <span class="gold-gradient-text">premiada</span>.</h1>
+<!-- Subtitle -->
+<p class="hero-animate-in delay-200 text-[#d8cae6] text-base sm:text-lg max-w-2xl font-light leading-relaxed">
+              Studio de Beleza Marli Ventura em Osasco. Tratamentos capilares avançados com tecnologia fotônica, cronograma capilar com ozonioterapia e alisamento personalizado de alta precisão.
+            </p>
+<!-- Conversion Action Bar -->
+<div class="hero-animate-in delay-300 pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
+<a class="px-8 py-4 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-[#d97706] text-[#120b18] font-bold text-sm tracking-wider uppercase flex items-center justify-center gap-3 shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-[1.02] transition-all border border-amber-300/40" href="https://wa.me/5511949825624?text=Ol%C3%A1%20Marli%2C%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o%20e%20agendar%20meu%20cabelo!" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-whatsapp text-lg text-[#120b18]"></i>
+<span>Agende no WhatsApp</span>
+</a>
+<a class="px-8 py-4 rounded-xl border border-[#5c2d73]/70 hover:border-amber-400/50 bg-[#281438]/70 hover:bg-[#341a4a] text-white font-medium text-sm tracking-wide flex items-center justify-center gap-2 transition-all shadow-md" href="#tratamentos">
+<span>Conhecer Tratamentos</span>
+<i class="fa-solid fa-arrow-down text-xs text-amber-300"></i>
+</a>
+</div>
+<!-- Social Validation Strip -->
+<div class="hero-animate-in delay-400 pt-6 border-t border-[#44225a]/70 w-full flex items-center gap-6 text-[#c4b3d6] flex-wrap"><div class="flex items-center gap-2.5"><span class="flex items-center justify-center w-5 h-5 rounded-full bg-amber-400/20 text-amber-300 text-xs"><i class="fa-solid fa-check"></i></span><span class="text-sm sm:text-base font-medium text-white/95">Diagnóstico Capilar Seguro</span></div><div class="flex items-center gap-2.5"><span class="flex items-center justify-center w-5 h-5 rounded-full bg-amber-400/20 text-amber-300 text-xs"><i class="fa-solid fa-check"></i></span><span class="text-sm sm:text-base font-medium text-white/95">Produtos Premium</span></div><div class="flex items-center gap-2.5"><span class="flex items-center justify-center w-5 h-5 rounded-full bg-amber-400/20 text-amber-300 text-xs"><i class="fa-solid fa-check"></i></span><span class="text-sm sm:text-base font-medium text-white/95">Ambiente Aconchegante</span></div></div>
+</div>
+<!-- Hero Right: Visual Balance Imagery -->
+<div class="lg:col-span-5 relative hero-animate-in delay-200">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<!-- Ambient border effect -->
+<div class="absolute -inset-1.5 rounded-3xl bg-gradient-to-r from-pink-500/30 via-purple-600/35 to-amber-400/35 blur-xl opacity-80"></div>
+<!-- Main Composition Card -->
+<div class="relative bg-[#1f112e] rounded-2xl overflow-hidden border border-[#5c2d73] shadow-2xl">
+<img alt="Fachada elegante e moderna do Studio de Beleza Marli Ventura" class="w-full h-80 sm:h-96 object-cover object-center filter brightness-95 hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe0rae8LnXdsxo3xJkOwm5VpSRlFOqYL9BHjD_bx3putdUorvdW83VDROBw60KQrQumbMVvftYxtsKqZq1h5vN3zYFat_DOqi2owgEhZV-vWL13HGm14E41j3iV8ea1doSYYkTMu6eBeOtocJRkSCZBU9Cm4tCXBdt694psmbJtz9YNQqWYQL8wdgehtpaCjmmP8gwZBX5HL9BdqruaEiqQScY2qHef1vpm2X0qisOtkM9_YGiJHeF">
+<!-- Floating Mini-Card Result Overlay -->
+<div class="p-5 bg-gradient-to-t from-[#120b18] via-[#1f112e] to-[#1f112e]/95 border-t border-[#44225a]">
+<div class="flex items-center justify-between">
+<div>
+<p class="text-xs uppercase text-[#f4b5c6] font-bold tracking-wider">Espaço Exclusivo em Osasco</p>
+<h4 class="text-white font-medium text-sm mt-0.5">Tecnologia, Conforto &amp; Alto Padrão</h4>
+</div>
+<div class="flex items-center gap-1.5 bg-[#2d1640] px-3 py-1.5 rounded-lg border border-amber-400/40 shadow-sm">
+<i class="fa-solid fa-award text-amber-300 text-sm"></i>
+<span class="text-xs font-bold text-[#fef08a]">Lisos de Ouro</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: ValuePropositionSection (The Value Proposition: 3 Core Pillars) -->
+<section class="py-20 bg-[#170e20] relative border-y border-[#44225a]/60" data-purpose="value-proposition" id="proposito">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16 scroll-reveal is-revealed">
+<span class="text-xs sm:text-sm uppercase tracking-widest text-[#f4b5c6] font-bold">Excelência em Cada Detalhe</span>
+<h2 class="font-serif-luxury text-3xl sm:text-4xl text-white font-bold mt-2">
+            Por que confiar seus fios ao Studio Marli Ventura?
+          </h2>
+<p class="text-[#d8cae6] text-sm sm:text-base mt-3 leading-relaxed">Combinamos conhecimento científico, aparelhos de última geração e dedicação exclusiva para garantir resultados surpreendentes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Value Card 1 -->
+<div class="scroll-reveal bg-[#1f112e] rounded-2xl p-8 border border-[#44225a] hover:border-pink-500/50 hover:shadow-lg hover:shadow-pink-900/20 transition-all duration-300 group hover:-translate-y-1.5 flex flex-col justify-between is-revealed"><div><div class="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-800/40 to-pink-900/40 border border-[#5c2d73] flex items-center justify-center text-[#f4b5c6] mb-6 group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:to-purple-600 group-hover:text-white transition-all shadow-inner"><i class="fa-solid fa-wand-magic-sparkles text-2xl"></i></div><h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-white mb-3">Tecnologia &amp; Fototerapia</h3><p class="text-[#d8cae6] text-sm sm:text-base leading-relaxed">Utilizamos LEDterapia, ozonioterapia e fotoativação capilar que potencializam a penetração de nutrientes, eliminam fungos no couro e concedem brilho cristalino aos fios.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b] flex items-center text-xs sm:text-sm text-[#f4b5c6] font-semibold"><span>Recuperação e Alta Performance</span><i class="fa-solid fa-chevron-right ml-auto text-xs"></i></div></div>
+<!-- Value Card 2 -->
+<div class="scroll-reveal delay-100 bg-[#241432] rounded-2xl p-8 border border-amber-400/50 relative shadow-xl shadow-amber-500/10 group hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between is-revealed"><span class="absolute -top-3 right-6 bg-gradient-to-r from-amber-400 to-[#d97706] text-[#120b18] font-bold text-xs uppercase tracking-wider px-3.5 py-1 rounded-full shadow-md border border-amber-200">Reconhecimento</span><div><div class="w-14 h-14 rounded-xl bg-amber-400/15 border border-amber-400/60 flex items-center justify-center text-amber-300 mb-6 group-hover:scale-110 transition-transform shadow-inner"><i class="fa-solid fa-trophy text-2xl text-amber-300"></i></div><h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-white mb-3">Especialista Premiada</h3><p class="text-[#e8def0] text-sm sm:text-base leading-relaxed">Marli Ventura é laureada com o conceituado <strong class="text-[#fef08a]">Prêmio Lisos de Ouro</strong>, conferido aos maiores expoentes em alisamento saudável e transformação capilar em São Paulo.</p></div><div class="mt-6 pt-4 border-t border-amber-400/20 flex items-center text-xs sm:text-sm text-amber-300 font-semibold"><span>Técnica Certificada &amp; Segura</span><i class="fa-solid fa-chevron-right ml-auto text-xs"></i></div></div>
+<!-- Value Card 3 -->
+<div class="scroll-reveal delay-200 bg-[#1f112e] rounded-2xl p-8 border border-[#44225a] hover:border-pink-500/50 hover:shadow-lg hover:shadow-pink-900/20 transition-all duration-300 group hover:-translate-y-1.5 flex flex-col justify-between is-revealed"><div><div class="w-14 h-14 rounded-xl bg-gradient-to-br from-pink-900/30 to-purple-800/40 border border-[#5c2d73] flex items-center justify-center text-rose-300 mb-6 group-hover:bg-gradient-to-r group-hover:from-rose-500 group-hover:to-pink-600 group-hover:text-white transition-all shadow-inner"><i class="fa-solid fa-heart text-2xl"></i></div><h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-white mb-3">Atendimento Individual</h3><p class="text-[#d8cae6] text-sm sm:text-base leading-relaxed">Cada cliente é única. Realizamos anamnese minuciosa para respeitar a estrutura biológica do seu cabelo, proporcionando momentos de relaxamento e acolhimento incomparáveis.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b] flex items-center text-xs sm:text-sm text-rose-300 font-semibold"><span>Cuidado Humanizado &amp; Afeto</span><i class="fa-solid fa-chevron-right ml-auto text-xs"></i></div></div>
+</div>
+</div>
+</section>
+<!-- END: ValuePropositionSection -->
+<!-- BEGIN: JourneyAboutSection (The Journey & Authority) -->
+<section class="py-24 relative bg-[#120b18]" data-purpose="about-journey" id="sobre">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Image Collage: Awards & Studio Life -->
+<div class="lg:col-span-6 grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="scroll-reveal relative rounded-2xl overflow-hidden border border-amber-400/40 shadow-xl group is-revealed">
+<img alt="Marli Ventura segurando o troféu Prêmio Lisos de Ouro" class="w-full h-72 sm:h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB304DDemeQrWgpd7NGlzxkuqtjAy-7R6iPXrZQFoRqkbljH1kQza9TvpETGmA1uWNATK7mWt3MKLCiTQbG--gfOThtinVTcmfEdXoPwvbHUq6-1qbUU-3liJKs-Jh1wzQZ7xGvjrsZUxB-0EWXTCJOAP8M3Ad2LPrfsH8A0F4gXYyvHacyRfzezal5g_M9jOGKjHfBy_tGwoveuIQCW9HxuBtUM3iyHc-5xTza0YBnvQeaoM0WNeKM">
+<div class="absolute inset-0 bg-gradient-to-t from-[#120b18]/90 via-transparent to-transparent flex items-end p-4">
+<span class="text-xs text-[#fef08a] font-semibold flex items-center gap-1.5"><i class="fa-solid fa-award text-amber-300"></i> Prêmio Lisos de Ouro • São Paulo</span>
+</div>
+</div>
+<div class="scroll-reveal delay-100 bg-[#1f112e] p-5 rounded-2xl border border-[#44225a] text-center shadow-lg is-revealed">
+<p class="font-serif-luxury text-3xl font-bold text-amber-300">100%</p>
+<p class="text-xs sm:text-sm text-[#d8cae6] uppercase tracking-wider mt-1 font-medium">Clientes Satisfeitas no Google</p>
+</div>
+</div>
+<div class="space-y-4 pt-6">
+<div class="scroll-reveal delay-200 bg-gradient-to-br from-[#29153d] to-[#1f112e] p-5 rounded-2xl border border-[#5c2d73] text-center shadow-lg is-revealed">
+<p class="font-serif-luxury text-3xl font-bold text-[#f4b5c6]">Anos</p>
+<p class="text-xs sm:text-sm text-white uppercase tracking-wider mt-1 font-medium">De Maestria em Alisamentos</p>
+</div>
+<div class="scroll-reveal delay-300 relative rounded-2xl overflow-hidden border border-[#5c2d73] shadow-xl group is-revealed">
+<img alt="Marli Ventura e Bianca atendendo cliente sorridente no salão" class="w-full h-72 sm:h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJRLWF2Gd2Y17ACbQue1OdfXf7EPNCB7X0QzrbqvGVvk8I4MrQr8A85asNeX0Cb4L-S7NFLtOpATKoLiin3iHRoM-2c-B9IQf2TpTT_cc7Tcc7TGDDcjFdX1oWzWf0GZlP0DmLgIfcfG9J2T3neslh881IXh3iV1PNrM04LaCCVdio1rlDG0CMLF3YMWlU3KUaLRfVZmTDZf5U1NhsuFcqJNy0n7PbyxX2X2YrrRIdJPDsOWdpI3NO">
+<div class="absolute inset-0 bg-gradient-to-t from-[#120b18]/90 via-transparent to-transparent flex items-end p-4">
+<span class="text-xs text-pink-200 font-medium flex items-center gap-1.5"><i class="fa-solid fa-heart text-pink-400 text-xs"></i> Equipe Marli &amp; Bianca</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Story & Journey Text -->
+<div class="lg:col-span-6 flex flex-col space-y-6">
+<div class="scroll-reveal inline-flex items-center gap-2 text-[#f4b5c6] text-xs sm:text-sm uppercase tracking-widest font-bold is-revealed"><i class="fa-solid fa-sparkles text-amber-300"></i><span>A História por Trás da Marca</span></div>
+<h2 class="scroll-reveal delay-100 font-serif-luxury text-3xl sm:text-5xl font-bold text-white leading-tight is-revealed">
+              Paixão por transformar autoestima e revelar a sua melhor versão.
+            </h2>
+<p class="scroll-reveal delay-200 text-[#d8cae6] text-base leading-relaxed is-revealed">
+              No coração do <strong class="text-white">Jardim Santo Antônio em Osasco</strong>, o Studio de Beleza Marli Ventura nasceu com o propósito inegociável de unir a ciência cosmética com o toque caloroso e atencioso.
+            </p>
+<p class="scroll-reveal delay-200 text-[#d8cae6] text-sm sm:text-base leading-relaxed is-revealed">Comandado por <strong class="text-white">Marli Ventura</strong> e sua parceira de dedicação <strong class="text-white">Bianca</strong>, nosso espaço é referência para quem busca cabelos impecavelmente alinhados sem danificar a fibra. Conquistamos reconhecimento regional e o consagrado <em class="text-[#fef08a] font-semibold">Prêmio Lisos de Ouro</em> através da entrega contínua de resultados brilhantes e duradouros.</p>
+<!-- Key Features Checklist -->
+<div class="scroll-reveal delay-300 grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 is-revealed">
+<div class="flex items-center gap-3 text-sm text-[#e8def0]">
+<span class="w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center text-pink-300 text-xs"><i class="fa-solid fa-check"></i></span>
+<span>Alisamentos sem formol agressivo</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-[#e8def0]">
+<span class="w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center text-pink-300 text-xs"><i class="fa-solid fa-check"></i></span>
+<span>Ozonioterapia e Laserterapia</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-[#e8def0]">
+<span class="w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center text-pink-300 text-xs"><i class="fa-solid fa-check"></i></span>
+<span>Ambiente climatizado e aconchegante</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-[#e8def0]">
+<span class="w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center text-pink-300 text-xs"><i class="fa-solid fa-check"></i></span>
+<span>Agendamento pontual e personalizado</span>
+</div>
+</div>
+<!-- Call to Action -->
+<div class="scroll-reveal delay-400 pt-4 is-revealed">
+<a class="inline-flex items-center gap-3 text-[#f4b5c6] hover:text-amber-300 font-semibold text-sm transition-colors border-b border-[#f4b5c6]/60 hover:border-amber-300 pb-1" href="https://wa.me/5511949825624?text=Ol%C3%A1%20Marli%2C%20gostaria%20de%20conversar%20sobre%20meu%20cabelo!" rel="noopener noreferrer" target="_blank">
+<span>Converse diretamente com a Marli no WhatsApp</span>
+<i class="fa-solid fa-arrow-right text-xs"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: JourneyAboutSection -->
+<!-- BEGIN: ContentTreatmentsSection (The Content: Services & Specialties) -->
+<section class="py-24 bg-[#170e20] border-t border-[#44225a]/60" data-purpose="services-menu" id="tratamentos">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16 scroll-reveal is-revealed">
+<span class="text-xs uppercase tracking-widest text-[#f4b5c6] font-semibold">Protocolos Exclusivos</span>
+<h2 class="font-serif-luxury text-3xl sm:text-5xl text-white font-bold mt-2">
+            Tratamentos e Especialidades
+          </h2>
+<p class="text-[#c7b5da] text-sm sm:text-base mt-3">
+            Tecnologia de ponta e técnicas avançadas para nutrir, restaurar e transformar a textura dos seus fios.
+          </p>
+</div>
+<!-- Treatments Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Treatment 1: Featured Liso Fotônico -->
+<div class="scroll-reveal lg:col-span-2 bg-[#211233] rounded-3xl overflow-hidden border border-amber-400/50 shadow-2xl shadow-purple-950/40 grid grid-cols-1 sm:grid-cols-2 group is-revealed">
+<div class="relative overflow-hidden min-h-[280px]">
+<img alt="Liso Fotônico Personalizado com brilho espelhado no Studio Marli Ventura" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA86ZlDgDLoB6coF830jAvxTdLdPGS0ssuDkb9TgKt4NaHIHwZNhq_gbygpgVrEpC_SnO7iBFnxEmpty87XnKzA9oAT3FF69EvMd3bZLe1hdov8d6fMMj18WgEXcmN31yC_3drOj-eleX4-WwrPzmWJX4Mdft64sg87yzAPKanDxlRlm9Ycemo6fcoyejqaD9FWkgOF9Yn72JeMwuEYFVRq6Ij5BsgDXkQSX5osWCcMp1qmvGEJpUd-">
+<div class="absolute top-4 left-4 bg-[#120b18]/90 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-[#fef08a] border border-amber-400/50 shadow-md"><i class="fa-solid fa-sparkles text-amber-300 mr-1.5"></i> Mais Desejado</div>
+</div>
+<div class="p-8 flex flex-col justify-between bg-gradient-to-br from-[#241437] to-[#1d0f2c]"><div><div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-900/30 to-purple-800/40 border border-[#5c2d73] flex items-center justify-center text-[#f4b5c6] mb-6 group-hover:scale-105 transition-transform shadow-inner"><i class="fa-solid fa-spa text-xl"></i></div><span class="text-xs uppercase tracking-wider text-[#f4b5c6] font-bold">Terapia Capilar</span><h3 class="font-serif-luxury text-2xl font-bold text-white mt-1 mb-3">Cronograma &amp; Ozonioterapia</h3><p class="text-[#d8cae6] text-sm leading-relaxed">Ciclo completo de Hidratação, Nutrição e Reconstrução com ação do vapor de ozônio. Oxigena os folículos, combate a queda, estimula o crescimento saudável e combate a porosidade extrema.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b]"><a class="text-xs sm:text-sm text-[#f4b5c6] hover:text-amber-300 font-semibold flex items-center gap-2 transition-colors" href="https://wa.me/5511949825624?text=Ol%C3%A1%20Marli%2C%20quero%20agendar%20um%20Cronograma%20Capilar%20com%20Ozonioterapia!" rel="noopener noreferrer" target="_blank"><span>Agendar Sessão</span><i class="fa-solid fa-arrow-right text-xs"></i></a></div></div>
+</div>
+<!-- Treatment 2: Cronograma Capilar com Ozônio -->
+<div class="scroll-reveal delay-100 bg-[#1f112e] rounded-3xl p-8 border border-[#44225a] hover:border-pink-500/50 hover:shadow-xl hover:shadow-purple-950/40 transition-all flex flex-col justify-between group is-revealed"><div><div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-900/30 to-purple-800/40 border border-[#5c2d73] flex items-center justify-center text-[#f4b5c6] mb-6 group-hover:scale-105 transition-transform shadow-inner"><i class="fa-solid fa-spa text-xl"></i></div><span class="text-xs uppercase tracking-wider text-[#f4b5c6] font-bold">Terapia Capilar</span><h3 class="font-serif-luxury text-2xl font-bold text-white mt-1 mb-3">Cronograma &amp; Ozonioterapia</h3><p class="text-[#d8cae6] text-sm leading-relaxed">Ciclo completo de Hidratação, Nutrição e Reconstrução com ação do vapor de ozônio. Oxigena os folículos, combate a queda, estimula o crescimento saudável e combate a porosidade extrema.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b]"><a class="text-xs sm:text-sm text-[#f4b5c6] hover:text-amber-300 font-semibold flex items-center gap-2 transition-colors" href="https://wa.me/5511949825624?text=Ol%C3%A1%20Marli%2C%20quero%20agendar%20um%20Cronograma%20Capilar%20com%20Ozonioterapia!" rel="noopener noreferrer" target="_blank"><span>Agendar Sessão</span><i class="fa-solid fa-arrow-right text-xs"></i></a></div></div>
+<!-- Treatment 3: Fototerapia Capilar (LED) -->
+<div class="scroll-reveal delay-200 bg-[#1f112e] rounded-3xl p-8 border border-[#44225a] hover:border-pink-500/50 hover:shadow-xl hover:shadow-purple-950/40 transition-all flex flex-col justify-between group is-revealed"><div><div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-900/40 to-indigo-900/30 border border-[#5c2d73] flex items-center justify-center text-purple-300 mb-6 group-hover:scale-105 transition-transform shadow-inner"><i class="fa-solid fa-lightbulb text-xl text-amber-300"></i></div><span class="text-xs uppercase tracking-wider text-amber-300 font-bold">Alta Tecnologia</span><h3 class="font-serif-luxury text-2xl font-bold text-white mt-1 mb-3">LEDterapia Capilar</h3><p class="text-[#d8cae6] text-sm leading-relaxed">Luz de alta potência que atua diretamente nas mitocôndrias celulares do bulbo capilar, aumentando a circulação, auxiliando no combate à oleosidade e acelerando a restauração do fio.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b]"><a class="text-xs sm:text-sm text-amber-300 hover:text-pink-300 font-semibold flex items-center gap-2 transition-colors" href="https://wa.me/5511949825624?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20a%20LEDterapia%20capilar!" rel="noopener noreferrer" target="_blank"><span>Saber Mais</span><i class="fa-solid fa-arrow-right text-xs"></i></a></div></div>
+<!-- Treatment 4: Botox & Cristalização -->
+<div class="scroll-reveal delay-100 bg-[#1f112e] rounded-3xl p-8 border border-[#44225a] hover:border-pink-500/50 hover:shadow-xl hover:shadow-purple-950/40 transition-all flex flex-col justify-between group is-revealed"><div><div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-900/30 to-purple-800/40 border border-[#5c2d73] flex items-center justify-center text-pink-300 mb-6 group-hover:scale-105 transition-transform shadow-inner"><i class="fa-solid fa-gem text-xl"></i></div><span class="text-xs uppercase tracking-wider text-[#f4b5c6] font-bold">Repositor de Massa</span><h3 class="font-serif-luxury text-2xl font-bold text-white mt-1 mb-3">Botox Capilar &amp; Cristalização</h3><p class="text-[#d8cae6] text-sm leading-relaxed">Preenchimento intensivo das fissuras dos fios com aminoácidos essenciais, redução de frizz e selagem de cutículas sem afinar os fios, mantendo o balanço natural.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b]"><a class="text-xs sm:text-sm text-[#f4b5c6] hover:text-amber-300 font-semibold flex items-center gap-2 transition-colors" href="https://wa.me/5511949825624?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20Botox%20Capilar%20ou%20Cristaliza%C3%A7%C3%A3o!" rel="noopener noreferrer" target="_blank"><span>Agendar Procedimento</span><i class="fa-solid fa-arrow-right text-xs"></i></a></div></div>
+<!-- Treatment 5: Beleza Completa & Bem-estar -->
+<div class="scroll-reveal delay-200 bg-[#1f112e] rounded-3xl p-8 border border-[#44225a] hover:border-pink-500/50 hover:shadow-xl hover:shadow-purple-950/40 transition-all flex flex-col justify-between group is-revealed"><div><div class="w-12 h-12 rounded-xl bg-gradient-to-br from-rose-900/30 to-purple-800/40 border border-[#5c2d73] flex items-center justify-center text-rose-300 mb-6 group-hover:scale-105 transition-transform shadow-inner"><i class="fa-solid fa-scissors text-xl"></i></div><span class="text-xs uppercase tracking-wider text-rose-300 font-bold">Cuidado Integral</span><h3 class="font-serif-luxury text-2xl font-bold text-white mt-1 mb-3">Cortes, Manicure &amp; Sobrancelhas</h3><p class="text-[#d8cae6] text-sm leading-relaxed">Além dos tratamentos capilares profundos, aproveite para renovar suas unhas com cutilagem perfeita, design de sobrancelhas harmonioso e cortes modernos que valorizam seu rosto.</p></div><div class="mt-6 pt-4 border-t border-[#381a4b]"><a class="text-xs sm:text-sm text-rose-300 hover:text-amber-300 font-semibold flex items-center gap-2 transition-colors" href="https://wa.me/5511949825624?text=Ol%C3%A1%2C%20quero%20agendar%20servi%C3%A7os%20de%20manicure%20e%20design%20de%20sobrancelhas!" rel="noopener noreferrer" target="_blank"><span>Agendar Serviços</span><i class="fa-solid fa-arrow-right text-xs"></i></a></div></div>
+</div>
+</div>
+</section>
+<!-- END: ContentTreatmentsSection -->
+<!-- BEGIN: TrustSignalsSection (The Trust Signals / Social Proof) -->
+<section class="py-24 relative overflow-hidden bg-[#120b18]" data-purpose="social-proof-testimonials" id="depoimentos">
+<!-- Soft ambient glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-gradient-to-r from-pink-900/10 via-purple-900/15 to-amber-900/10 blur-[130px] rounded-full pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<!-- Header with Google Verified Badge -->
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-16 scroll-reveal is-revealed">
+<div class="flex items-center gap-2 bg-[#241432] border border-[#5c2d73] px-4 py-2 rounded-full mb-4 shadow-sm"><i class="fa-brands fa-google text-pink-400 text-sm"></i><span class="text-xs sm:text-sm font-semibold text-white">Avaliações 100% Reais no Google Maps</span></div>
+<h2 class="font-serif-luxury text-3xl sm:text-5xl text-white font-bold">
+            Amado por quem já transformou o cabelo
+          </h2>
+<p class="text-[#c7b5da] text-sm sm:text-base mt-3">
+            Veja o que dizem nossas clientes que vivenciaram a experiência do Studio Marli Ventura.
+          </p>
+<div class="mt-6 flex items-center gap-3 bg-[#1f112e] px-5 py-2.5 rounded-full border border-amber-400/30 shadow-md">
+<span class="text-3xl font-bold text-white font-serif-luxury">5.0</span>
+<div class="flex text-amber-400 text-sm">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<span class="text-xs sm:text-sm text-[#e8def0] font-medium">(30 avaliações verificadas)</span>
+</div>
+</div>
+<!-- Testimonial Cards (3 Columns) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="scroll-reveal bg-[#1f112e] p-8 rounded-3xl border border-[#44225a] flex flex-col justify-between relative hover:border-pink-500/50 hover:shadow-xl hover:shadow-purple-950/30 transition-all is-revealed">
+<i class="fa-solid fa-quote-left text-[#f4b5c6]/20 text-4xl absolute top-6 right-6 pointer-events-none"></i>
+<div>
+<div class="flex text-amber-400 text-xs mb-4">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-[#d8cae6] text-sm leading-relaxed italic mb-6">
+                "Ótima profissional, atendimento 1.000, muito acolhedora! A Marli e a Bianca são incríveis, dedicadas e usam produtos de altíssima qualidade. Recomendo de olhos fechados!"
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-[#381a4b]">
+<div class="w-10 h-10 rounded-full bg-gradient-to-br from-pink-500/20 to-purple-600/30 border border-pink-400/40 flex items-center justify-center font-bold text-[#f4b5c6] text-sm shadow-inner">
+                ML
+              </div>
+<div>
+<h4 class="text-white text-sm font-semibold">Mariana Lenita Carvalho</h4>
+<p class="text-xs text-[#d8cae6] font-medium">Avaliação no Google</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="scroll-reveal delay-100 bg-[#241432] p-8 rounded-3xl border border-amber-400/40 shadow-xl flex flex-col justify-between relative hover:border-amber-400 transition-all is-revealed">
+<i class="fa-solid fa-quote-left text-amber-400/20 text-4xl absolute top-6 right-6 pointer-events-none"></i>
+<div>
+<div class="flex text-amber-400 text-xs mb-4">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-[#e8def0] text-sm leading-relaxed italic mb-6">
+                "Marli, muito obrigada pelo cuidado, carinho e dedicação com o meu cabelo. Saí do Studio de Beleza Marli Ventura com os fios mais lindos e bem cuidados do que nunca!"
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-[#44225a]">
+<div class="w-10 h-10 rounded-full bg-amber-400/20 border border-amber-400/50 flex items-center justify-center font-bold text-amber-300 text-sm shadow-inner">
+                EC
+              </div>
+<div>
+<h4 class="text-white text-sm font-semibold">Edneia Cunha</h4>
+<p class="text-xs text-amber-300 font-semibold">Local Guide • Google</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="scroll-reveal delay-200 bg-[#1f112e] p-8 rounded-3xl border border-[#44225a] flex flex-col justify-between relative hover:border-pink-500/50 hover:shadow-xl hover:shadow-purple-950/30 transition-all is-revealed">
+<i class="fa-solid fa-quote-left text-[#f4b5c6]/20 text-4xl absolute top-6 right-6 pointer-events-none"></i>
+<div>
+<div class="flex text-amber-400 text-xs mb-4">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-[#d8cae6] text-sm leading-relaxed italic mb-6">
+                "Primeira vez na vida que fiz botox com uma cabeleireira tão dedicada e cuidadosa! A Marli foi simplesmente maravilhosa... Meu cabelo saiu um brilho!"
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-[#381a4b]">
+<div class="w-10 h-10 rounded-full bg-gradient-to-br from-pink-500/20 to-purple-600/30 border border-pink-400/40 flex items-center justify-center font-bold text-[#f4b5c6] text-sm shadow-inner">
+                RG
+              </div>
+<div>
+<h4 class="text-white text-sm font-semibold">Regeane Gakiya</h4>
+<p class="text-xs text-[#d8cae6] font-medium">Avaliação no Google</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TrustSignalsSection -->
+<!-- BEGIN: ConversionContactSection (The Conversion & Removal of Friction) -->
+<section class="py-20 bg-gradient-to-b from-[#170e20] to-[#120b18] relative" data-purpose="conversion-block" id="contato">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="bg-gradient-to-r from-[#241432] via-[#211231] to-[#1a0f26] rounded-3xl border border-[#5c2d73] p-8 sm:p-12 lg:p-16 shadow-2xl relative overflow-hidden scroll-reveal is-revealed">
+<!-- Background decoration -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 bg-gradient-to-br from-pink-600/20 to-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<!-- Left Info & CTA -->
+<div class="lg:col-span-7 space-y-6">
+<span class="text-xs font-semibold text-[#f4b5c6] uppercase tracking-widest">Agendamento Simplificado</span>
+<h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-white leading-tight">
+                Pronta para ter cabelos com brilho de cinema e saúde renovada?
+              </h2>
+<p class="text-[#d8cae6] text-base leading-relaxed">
+                Garanta seu atendimento personalizado diretamente com a nossa equipe pelo WhatsApp. Esclareça dúvidas sobre o seu tipo de fio e receba um diagnóstico capilar sem compromisso.
+              </p>
+<!-- Conversion Trigger Button -->
+<div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white font-bold text-base shadow-xl shadow-emerald-950/60 hover:shadow-emerald-600/50 flex items-center justify-center gap-3 transition-all duration-300 transform hover:-translate-y-0.5 border border-emerald-400/40" href="https://wa.me/5511949825624?text=Ol%C3%A1%2C%20quero%20agendar%20minha%20visita%20ao%20Studio%20Marli%20Ventura!" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-whatsapp text-2xl"></i>
+<span>Falar no WhatsApp (11) 94982-5624</span>
+</a>
+</div>
+<!-- Payment Methods & Facilities -->
+<div class="pt-6 border-t border-[#44225a]">
+<p class="text-xs uppercase tracking-wider text-[#c7b5da] font-semibold mb-3">Facilidades de Pagamento:</p>
+<div class="flex flex-wrap items-center gap-3 text-xs text-[#e8def0]">
+<span class="px-3 py-1.5 rounded-lg bg-[#180e22]/80 border border-[#5c2d73] flex items-center gap-2"><i class="fa-solid fa-credit-card text-amber-400"></i> Cartão de Crédito / Débito</span>
+<span class="px-3 py-1.5 rounded-lg bg-[#180e22]/80 border border-[#5c2d73] flex items-center gap-2"><i class="fa-brands fa-pix text-emerald-400"></i> Pix com desconto</span>
+<span class="px-3 py-1.5 rounded-lg bg-[#180e22]/80 border border-[#5c2d73] flex items-center gap-2"><i class="fa-solid fa-mobile-screen-button text-pink-300"></i> Pagamento por Aproximação</span>
+</div>
+</div><div class="mt-6 p-5 rounded-2xl bg-[#1f112e]/90 border border-[#5c2d73] shadow-xl flex flex-col sm:flex-row items-center gap-4 text-left"><div class="flex items-center -space-x-3 flex-shrink-0"><img src="https://lh3.googleusercontent.com/aida/ALJJyrDZC6joDe2xN9r9yN0stt_2Cuse2v0u8enwEOxOWMdxXi6AOUuu3OzL3ZsXPB4wZNs2Vjk98dW9eOJd8UXttTfXQh167n8-86njQnnMr_zTRtftMsLXDgBwLEHRin_t8aJD9JET2kb3PpoSLPegjJ0ZpqljqWmMyP64cxBdbIgzsQW90iRPiudiUSF3MCeqzUr_0-vUcFq1S9tegmpEJP_vl6fnwJT1S_AoFLpHslWj" alt="Ícone App Apple Touch Studio Marli Ventura" class="w-14 h-14 rounded-2xl border-2 border-amber-400/50 shadow-lg object-cover"><img src="https://lh3.googleusercontent.com/aida/ALJJyrB1dZFEnX0IqGIA776qu7mAlJ_XiUKic0FumVbIb8c_wpI88RLjKZmna6AJ52NB6rsvYfiCIU6rQNLojMvTEdr8gZy2ybIvGqvd5P4qbyac5CSCk_ad7jRDS1PKZ3KIfiK3B8o9oIPGA7KljC6ICaVh9VVpMTYGIGP8AUCZ2QriW65HNpTtrDZkmiFn2tk2DquDCgNC1WpfUBwuYW2CKVhsIXNFtHEsFwYqROPq32E" alt="Ícone PWA Studio Marli Ventura" class="w-12 h-12 rounded-xl border-2 border-pink-400/50 shadow-md object-cover relative z-10"></div><div class="flex-1 text-center sm:text-left"><div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-1"><span class="text-xs font-serif-luxury font-bold text-white tracking-wide">Acesso Rápido no Celular</span><span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/40">Web App Oficial</span></div><p class="text-xs text-[#d8cae6] leading-relaxed">Adicione o Studio Marli Ventura à <strong>Tela Inicial</strong> do seu iPhone ou Android (toque em <em>Compartilhar / Opções &gt; Adicionar à Tela de Início</em>) para agendar horários em 1 clique com ícone exclusivo.</p></div></div>
+</div>
+<!-- Right: Studio Details & Address Card -->
+<div class="lg:col-span-5 bg-[#170e20]/95 rounded-2xl p-6 sm:p-8 border border-[#44225a] space-y-6 shadow-xl scroll-reveal delay-200 is-revealed">
+<h3 class="font-serif-luxury text-2xl font-bold text-white pb-3 border-b border-[#44225a]">
+                Studio Marli Ventura
+              </h3>
+<!-- Address -->
+<div class="flex items-start gap-4 text-sm">
+<div class="w-9 h-9 rounded-lg bg-pink-500/15 border border-pink-500/30 flex items-center justify-center text-[#f4b5c6] flex-shrink-0 mt-0.5">
+<i class="fa-solid fa-location-dot"></i>
+</div>
+<div>
+<p class="font-semibold text-white">Endereço:</p>
+<p class="text-[#d8cae6] text-xs sm:text-sm mt-0.5 leading-snug">
+                    R. São Nicolau, 13 - Jardim Santo Antônio<br>
+                    Osasco - SP, 06152-015<br>
+<span class="text-[#c7b5da] text-xs">(Próximo à Av. João de Andrade)</span>
+</p>
+</div>
+</div>
+<!-- Opening Hours -->
+<div class="flex items-start gap-4 text-sm">
+<div class="w-9 h-9 rounded-lg bg-pink-500/15 border border-pink-500/30 flex items-center justify-center text-[#f4b5c6] flex-shrink-0 mt-0.5">
+<i class="fa-regular fa-clock"></i>
+</div>
+<div>
+<p class="font-semibold text-white">Horário de Funcionamento:</p>
+<p class="text-[#d8cae6] text-xs sm:text-sm mt-0.5">
+                    Segunda a Sábado: até 19:00h<br>
+<span class="text-amber-300 text-xs font-medium">Atendimento com hora marcada</span>
+</p>
+</div>
+</div>
+<!-- Social Direct link -->
+<div class="flex items-start gap-4 text-sm">
+<div class="w-9 h-9 rounded-lg bg-pink-500/15 border border-pink-500/30 flex items-center justify-center text-[#f4b5c6] flex-shrink-0 mt-0.5">
+<i class="fa-brands fa-instagram"></i>
+</div>
+<div>
+<p class="font-semibold text-white">Instagram Oficial:</p>
+<a class="text-xs sm:text-sm text-[#f4b5c6] hover:text-amber-300 hover:underline transition-colors" href="https://www.instagram.com/studiodebeleza_marliventura/" rel="noopener noreferrer" target="_blank">
+                    @studiodebeleza_marliventura
+                  </a>
+</div>
+</div>
+<div class="pt-2"><a class="group relative block w-full h-44 rounded-xl overflow-hidden border border-[#5c2d73] hover:border-amber-400 transition-all duration-300 shadow-lg hover:shadow-pink-900/30" href="https://www.google.com/maps/search/?api=1&amp;query=R.+S%C3%A3o+Nicolau%2C+13+-+Santo+Ant%C3%B4nio%2C+Osasco+-+SP%2C+06152-015" rel="noopener noreferrer" target="_blank"><iframe allowfullscreen="" class="w-full h-full border-0 pointer-events-none filter contrast-125 brightness-75 invert-[0.9] hue-rotate-180 group-hover:brightness-90 transition-all duration-500" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4947937409257!2d-46.7997973!3d-23.5506691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff6813137f8f%3A0x7d87bc41a34d0be9!2sR.%20S%C3%A3o%20Nicolau%2C%2013%20-%20Santo%20Ant%C3%B4nio%2C%20Osasco%20-%20SP%2C%2006152-015!5e0!3m2!1spt-BR!2sbr!4v1700000000000"></iframe><div class="absolute inset-0 bg-gradient-to-t from-[#120b18] via-transparent to-[#120b18]/40 pointer-events-none"></div><div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center pointer-events-none group-hover:scale-110 transition-transform duration-300"><div class="w-10 h-10 rounded-full bg-gradient-to-r from-amber-400 to-[#d97706] text-[#120b18] flex items-center justify-center shadow-lg shadow-amber-500/50 border-2 border-white"><i class="fa-solid fa-location-dot text-base"></i></div><span class="mt-1 text-xs font-bold text-white bg-[#1f112e]/95 px-2.5 py-1 rounded-full border border-amber-400/40 shadow">Studio Marli Ventura</span></div><div class="absolute bottom-2.5 right-2.5 bg-[#1f112e]/95 backdrop-blur-md border border-amber-400/40 text-amber-300 group-hover:bg-amber-400 group-hover:text-[#120b18] px-3.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 shadow transition-all duration-300"><i class="fa-solid fa-arrow-right text-xs"></i><span>Abrir no Google Maps</span></div><div class="absolute top-2.5 left-2.5 bg-[#1f112e]/95 border border-[#5c2d73] px-3 py-1 rounded-md text-xs text-[#e8def0] font-medium flex items-center gap-1.5"><i class="fa-regular fa-clock text-amber-300 text-xs"></i><span>Fácil Acesso • Estacionamento</span></div></a></div></div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ConversionContactSection -->
+</main>
+<!-- BEGIN: MainFooter (The Usability / Consistency) -->
+<footer class="bg-[#0e0814] border-t border-[#44225a] pt-16 pb-12" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12 scroll-reveal is-revealed">
+<!-- Col 1: Brand Info -->
+<div class="space-y-4">
+<div class="flex items-center gap-3.5">
+<img alt="Studio de Beleza Marli Ventura" class="w-14 h-14 object-contain rounded-full border border-amber-400/40 shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0-lQoXHl2wjDROPnCY7ke0wtPM2ExRwJQvJPIfItiRVfs-QzqVWCXsr7ydRiHPxd9BajRA4P4OT8JCKVVSd_wNnQnjwIVgTL3evORyKmusewYt91eddpzLMZv4cSB6kfIJxy6r-N9-ez2Zu7um_e6xoI-mBuh_QeESTGBHtUfGzvAJHpseAl73Rzh1qRNRdbUe3dTAs9Tw_UDeBONyDC_2uf7hI2IIHPpmzQepG0-MmFs2XyuiQjc">
+<div class="flex flex-col">
+<span class="font-serif-luxury text-2xl font-bold tracking-wider text-white uppercase leading-none">Marli Ventura</span>
+<span class="text-xs uppercase tracking-widest text-[#f4b5c6] mt-1 font-semibold">Studio de Beleza</span>
+</div>
+</div>
+<p class="text-[#c7b5da] text-xs leading-relaxed">
+            Studio de beleza especializado em alinhamento térmico, liso fotônico, ozonioterapia e estética capilar avançada em Osasco - SP.
+          </p>
+<div class="flex items-center gap-3 pt-2">
+<a aria-label="Instagram" class="w-9 h-9 rounded-full bg-[#1f112e] border border-[#5c2d73] flex items-center justify-center text-[#d8cae6] hover:text-[#f4b5c6] hover:border-[#f4b5c6] transition-colors" href="https://www.instagram.com/studiodebeleza_marliventura/" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+<a aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-[#1f112e] border border-[#5c2d73] flex items-center justify-center text-[#d8cae6] hover:text-emerald-400 hover:border-emerald-400 transition-colors" href="https://wa.me/5511949825624" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+</div>
+</div>
+<!-- Col 2: Fast Navigation -->
+<div>
+<h4 class="text-white text-sm font-semibold uppercase tracking-wider mb-4 border-b border-[#5c2d73] pb-2 inline-block">Navegação</h4>
+<ul class="space-y-2 text-xs text-[#c7b5da]">
+<li><a class="hover:text-amber-300 transition-colors" href="#inicio">Página Inicial</a></li>
+<li><a class="hover:text-amber-300 transition-colors" href="#proposito">Diferenciais &amp; Tecnologia</a></li>
+<li><a class="hover:text-amber-300 transition-colors" href="#sobre">Sobre a Especialista Marli</a></li>
+<li><a class="hover:text-amber-300 transition-colors" href="#tratamentos">Serviços e Tratamentos</a></li>
+<li><a class="hover:text-amber-300 transition-colors" href="#depoimentos">Depoimentos no Google</a></li>
+<li><a class="hover:text-amber-300 transition-colors" href="#contato">Como Chegar / Horários</a></li>
+</ul>
+</div>
+<!-- Col 3: Services -->
+<div>
+<h4 class="text-white text-sm font-semibold uppercase tracking-wider mb-4 border-b border-[#5c2d73] pb-2 inline-block">Tratamentos</h4>
+<ul class="space-y-2 text-xs text-[#c7b5da]">
+<li>Liso Fotônico Personalizado</li>
+<li>Cronograma com Ozonioterapia</li>
+<li>LEDterapia &amp; Fotoativação</li>
+<li>Botox Capilar e Cristalização</li>
+<li>Corte Terapêutico e Hidratações</li>
+<li>Design de Sobrancelhas e Manicure</li>
+</ul>
+</div>
+<!-- Col 4: Contact summary -->
+<div>
+<h4 class="text-white text-sm font-semibold uppercase tracking-wider mb-4 border-b border-[#5c2d73] pb-2 inline-block">Atendimento</h4>
+<p class="text-xs text-[#c7b5da] leading-relaxed">
+            R. São Nicolau, 13<br>
+            Santo Antônio - Osasco/SP<br>
+            CEP: 06152-015
+          </p>
+<p class="text-xs text-amber-300 mt-3 font-semibold">
+            WhatsApp: (11) 94982-5624
+          </p>
+<div class="mt-4">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-amber-400/15 text-amber-300 text-xs border border-amber-400/30 font-semibold"><i class="fa-solid fa-trophy text-xs"></i> Prêmio Lisos de Ouro SP</span>
+</div>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="pt-8 border-t border-[#44225a]/60 flex flex-col sm:flex-row items-center justify-between text-xs text-[#8d7c9e] gap-4"><div class="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-xs text-[#c7b5da]"><p>© 2026 Studio de Beleza Marli Ventura. Todos os direitos reservados.</p><span class="hidden sm:inline text-[#44225a]">•</span><button id="open-privacy-modal-btn" type="button" class="text-xs text-[#f4b5c6] hover:text-amber-300 underline font-medium transition-colors cursor-pointer">Política de Privacidade (LGPD)</button></div><p class="text-xs text-[#c7b5da] font-medium">Excelência Capilar, Ozonioterapia e Fototerapia em Osasco.</p></div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: StickyMobileWhatsApp -->
+<!-- Fixed Floating CTA Button for quick mobile access -->
+<div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end" data-purpose="floating-actions" style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 99999 !important;">
+<!-- Instagram Floating Button -->
+<a aria-label="Instagram" class="group flex items-center gap-2" href="https://www.instagram.com/studiodebeleza_marliventura/" rel="noopener noreferrer" target="_blank">
+<span class="hidden group-hover:inline-block px-3 py-1 text-xs font-semibold text-white bg-[#1f112e]/95 backdrop-blur-md border border-[#5c2d73] rounded-full shadow-lg transition-all duration-300 pointer-events-none">
+      Instagram
+    </span>
+<div class="w-12 h-12 rounded-full bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white flex items-center justify-center text-xl shadow-xl hover:shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 border border-white/20">
+<i class="fa-brands fa-instagram"></i>
+</div>
+</a>
+<!-- WhatsApp Floating Button -->
+<a aria-label="WhatsApp" class="group flex items-center gap-2" href="https://wa.me/5511949825624?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20Marli%20Ventura" rel="noopener noreferrer" target="_blank">
+<span class="hidden group-hover:inline-block px-3 py-1 text-xs font-semibold text-white bg-[#1f112e]/95 backdrop-blur-md border border-emerald-500/40 rounded-full shadow-lg transition-all duration-300 pointer-events-none">
+      Agendar no WhatsApp
+    </span>
+<div class="w-14 h-14 rounded-full bg-gradient-to-tr from-emerald-600 via-emerald-500 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white flex items-center justify-center text-3xl shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-600/70 hover:scale-110 active:scale-95 transition-all duration-300 border-2 border-white/40 relative">
+<span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-amber-400 border-2 border-[#120b18] rounded-full"></span>
+<i class="fa-brands fa-whatsapp"></i>
+</div>
+</a>
+</div>
+<!-- END: StickyMobileWhatsApp -->
+<!-- BEGIN: ScrollRevealScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Check if user prefers reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      document.querySelectorAll('.scroll-reveal').forEach(el => {
+        el.classList.add('is-revealed');
+      });
+      return;
+    }
+
+    const revealElements = document.querySelectorAll('.scroll-reveal');
+    
+    if ('IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      revealElements.forEach(el => {
+        revealObserver.observe(el);
+      });
+    } else {
+      // Fallback for browsers without IntersectionObserver
+      revealElements.forEach(el => el.classList.add('is-revealed'));
+    }
+  });
+</script>
+<!-- END: ScrollRevealScript -->
+
+
+<div id="lgpd-cookie-banner" class="fixed bottom-6 left-6 z-50 max-w-lg w-[calc(100%-3rem)] sm:w-auto bg-[#170e20]/95 backdrop-blur-md border border-amber-400/40 rounded-2xl p-5 sm:p-6 shadow-2xl shadow-purple-950/60 transition-all duration-500 transform translate-y-8 opacity-0 pointer-events-none hidden" style="z-index: 99990 !important;"><div class="flex items-start gap-3.5"><div class="w-9 h-9 rounded-xl bg-amber-400/20 border border-amber-400/40 flex items-center justify-center text-amber-300 flex-shrink-0 mt-0.5 shadow-inner"><i class="fa-solid fa-gem text-sm"></i></div><div class="flex-1"><div class="flex items-center justify-between gap-2 mb-1.5"><h4 class="text-sm font-serif-luxury font-bold text-white tracking-wide flex items-center gap-2"><span class="gold-gradient-text">Privacidade &amp; Cookies</span><span class="text-[11px] sm:text-xs font-sans font-semibold px-2 py-0.5 rounded-full bg-purple-900/40 border border-[#5c2d73] text-[#f4b5c6]">LGPD</span></h4></div><p class="text-xs text-[#d8cae6] leading-relaxed mb-4">Utilizamos cookies e tecnologias similares para aprimorar sua experiência de navegação, analisar o tráfego e personalizar seu atendimento com total segurança, em conformidade com a <strong>LGPD (Lei nº 13.709/2018)</strong>.</p><div class="flex flex-wrap items-center gap-2.5 pt-1"><button id="btn-lgpd-accept-all" type="button" class="px-4 py-2 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-[#d97706] text-[#120b18] font-bold text-xs shadow-md shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-[1.02] transition-all border border-amber-300/40 cursor-pointer">Aceitar Todos</button><button id="btn-lgpd-accept-essential" type="button" class="px-3.5 py-2 rounded-xl bg-[#281438]/70 hover:bg-[#341a4a] text-white font-medium text-xs border border-[#5c2d73]/70 hover:border-amber-400/40 transition-all cursor-pointer">Apenas Necessários</button><button id="btn-lgpd-open-preferences" type="button" class="px-2 py-2 text-xs text-[#f4b5c6] hover:text-amber-300 underline font-semibold transition-colors cursor-pointer">Preferências</button></div></div></div></div><div id="lgpd-privacy-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-md transition-opacity duration-300 opacity-0 pointer-events-none hidden" style="z-index: 99998 !important;"><div class="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto bg-[#170e20] border border-[#5c2d73] rounded-3xl p-6 sm:p-8 shadow-2xl text-left"><div class="flex items-center justify-between pb-4 border-b border-[#44225a]"><div class="flex items-center gap-2.5"><div class="w-8 h-8 rounded-lg bg-pink-500/20 border border-pink-500/40 flex items-center justify-center text-pink-300 text-xs"><i class="fa-solid fa-wand-magic-sparkles text-xs"></i></div><h3 class="font-serif-luxury text-xl sm:text-2xl font-bold text-white">Política de Privacidade e Cookies</h3></div><button id="btn-lgpd-modal-close" type="button" class="w-8 h-8 rounded-full bg-[#1f112e] border border-[#44225a] hover:border-amber-400 text-[#d8cae6] hover:text-white flex items-center justify-center text-xs transition-colors cursor-pointer" aria-label="Fechar"><i class="fa-solid fa-check text-xs"></i></button></div><div class="py-5 space-y-4 text-xs sm:text-sm text-[#d8cae6] leading-relaxed"><p class="text-white font-medium">O <span class="text-[#fef08a]">Studio de Beleza Marli Ventura</span> preza pelo respeito absoluto à privacidade, sigilo e integridade dos dados de nossas clientes, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei Federal nº 13.709/2018).</p><div class="bg-[#1f112e] rounded-xl p-4 border border-[#44225a] space-y-2"><h5 class="font-semibold text-white text-xs uppercase tracking-wider flex items-center gap-2"><i class="fa-solid fa-sparkles text-amber-300 text-xs"></i> 1. Finalidade do Tratamento</h5><p class="text-xs text-[#c7b5da]">Os dados fornecidos espontaneamente por você (como nome, telefone e mensagens ao iniciar o contato via WhatsApp) são utilizados exclusivamente para agendamento de consultas, confirmação de horários e esclarecimento de dúvidas sobre protocolos capilares.</p></div><div class="bg-[#1f112e] rounded-xl p-4 border border-[#44225a] space-y-2"><h5 class="font-semibold text-white text-xs uppercase tracking-wider flex items-center gap-2"><i class="fa-solid fa-sparkles text-amber-300 text-xs"></i> 2. Gestão de Cookies</h5><div class="space-y-3 pt-1"><div class="flex items-center justify-between pb-2 border-b border-[#381a4b]"><div><p class="text-xs font-semibold text-white">Cookies Necessários</p><p class="text-[11px] sm:text-xs text-[#8d7c9e]">Essenciais para o funcionamento básico e segurança da página.</p></div><span class="text-xs font-semibold text-emerald-400 bg-emerald-500/20 px-2 py-0.5 rounded border border-emerald-400/30">Sempre Ativos</span></div><div class="flex items-center justify-between"><div><p class="text-xs font-semibold text-white">Cookies Analíticos e de Experiência</p><p class="text-[11px] sm:text-xs text-[#8d7c9e]">Ajudam a entender o fluxo de visitas para aprimoramento dos serviços.</p></div><label class="relative inline-flex items-center cursor-pointer"><input id="toggle-analytics-cookies" type="checkbox" checked="" class="sr-only peer"><div class="w-9 h-5 bg-[#2d1640] border border-[#5c2d73] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-amber-500"></div></label></div></div></div><div class="bg-[#1f112e] rounded-xl p-4 border border-[#44225a] space-y-1.5"><h5 class="font-semibold text-white text-xs uppercase tracking-wider flex items-center gap-2"><i class="fa-solid fa-sparkles text-amber-300 text-xs"></i> 3. Direitos da Titular e Contato</h5><p class="text-xs text-[#c7b5da]">Você tem direito a confirmar a existência de dados, solicitar correção ou eliminação a qualquer instante. Para requisições relacionadas à privacidade ou contato com a equipe encarregada, utilize nosso canal oficial de WhatsApp pelo número <strong class="text-amber-300">(11) 94982-5624</strong>.</p></div></div><div class="pt-4 border-t border-[#44225a] flex flex-wrap items-center justify-end gap-3"><button id="btn-lgpd-save-preferences" type="button" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-[#d97706] text-[#120b18] font-bold text-xs tracking-wide shadow-md shadow-amber-500/25 hover:shadow-amber-500/40 transition-all cursor-pointer">Salvar Preferências</button></div></div></div><script>(function initLGPD() { const STORAGE_KEY = 'mv_cookie_consent'; const banner = document.getElementById('lgpd-cookie-banner'); const modal = document.getElementById('lgpd-privacy-modal'); const btnAcceptAll = document.getElementById('btn-lgpd-accept-all'); const btnAcceptEssential = document.getElementById('btn-lgpd-accept-essential'); const btnOpenPreferences = document.getElementById('btn-lgpd-open-preferences'); const btnOpenModalFooter = document.getElementById('open-privacy-modal-btn'); const btnCloseModal = document.getElementById('btn-lgpd-modal-close'); const btnSavePreferences = document.getElementById('btn-lgpd-save-preferences'); const toggleAnalytics = document.getElementById('toggle-analytics-cookies'); function showBanner() { if (!banner) return; banner.classList.remove('hidden'); requestAnimationFrame(() => { banner.classList.remove('opacity-0', 'translate-y-8', 'pointer-events-none'); banner.classList.add('opacity-100', 'translate-y-0'); }); } function hideBanner() { if (!banner) return; banner.classList.add('opacity-0', 'translate-y-8', 'pointer-events-none'); banner.classList.remove('opacity-100', 'translate-y-0'); setTimeout(() => { banner.classList.add('hidden'); }, 500); } function openModal() { if (!modal) return; modal.classList.remove('hidden'); requestAnimationFrame(() => { modal.classList.remove('opacity-0', 'pointer-events-none'); modal.classList.add('opacity-100'); }); } function closeModal() { if (!modal) return; modal.classList.add('opacity-0', 'pointer-events-none'); modal.classList.remove('opacity-100'); setTimeout(() => { modal.classList.add('hidden'); }, 300); } function saveConsent(type) { try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ status: type, analytics: toggleAnalytics ? toggleAnalytics.checked : false, timestamp: new Date().toISOString() })); } catch (e) {} hideBanner(); closeModal(); } const stored = (function() { try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; } })(); if (!stored) { setTimeout(showBanner, 1200); } else { try { const parsed = JSON.parse(stored); if (toggleAnalytics && parsed && typeof parsed.analytics === 'boolean') { toggleAnalytics.checked = parsed.analytics; } } catch (e) {} } if (btnAcceptAll) { btnAcceptAll.addEventListener('click', () => { if (toggleAnalytics) toggleAnalytics.checked = true; saveConsent('accepted_all'); }); } if (btnAcceptEssential) { btnAcceptEssential.addEventListener('click', () => { if (toggleAnalytics) toggleAnalytics.checked = false; saveConsent('essential_only'); }); } if (btnOpenPreferences) { btnOpenPreferences.addEventListener('click', () => { openModal(); }); } if (btnOpenModalFooter) { btnOpenModalFooter.addEventListener('click', () => { openModal(); }); } if (btnCloseModal) { btnCloseModal.addEventListener('click', () => { closeModal(); }); } if (btnSavePreferences) { btnSavePreferences.addEventListener('click', () => { saveConsent(toggleAnalytics && toggleAnalytics.checked ? 'custom_accepted' : 'essential_only'); }); } if (modal) { modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); }); } })();</script></body></html>
