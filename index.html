@@ -1,127 +1,72 @@
 <!DOCTYPE html><html class="scroll-smooth" lang="pt-BR"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Studio de Beleza Marli Ventura | Especialista Premiada em Alisamento e Cronograma Capilar</title>
-<!-- Tailwind CSS v3 -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
-<link href="https://fonts.googleapis.com" rel="preconnect">
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-<!-- FontAwesome Icons -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-<!-- Tailwind Configuration -->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              plumDark: '#120b18',
-              plumBase: '#1a0f24',
-              plumSurface: '#241432',
-              plumCard: '#1f112e',
-              plumCardElevated: '#28163c',
-              borderDelicate: '#44225a',
-              roseBorder: '#5c2d73',
-              gold: '#F2C94C',
-              goldLight: '#FEF08A',
-              goldDark: '#D97706',
-              roseGold: '#F4B5C6',
-              roseAccent: '#E06287',
-              mauve: '#B784A7',
-              lavenderLight: '#F3E8FF'
-            }
-          },
-          fontFamily: {
-            serif: ['"Cormorant Garamond"', 'serif'],
-            sans: ['"Plus Jakarta Sans"', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-<!-- BEGIN: Custom Styles -->
-<style data-purpose="typography">
-    .font-serif-luxury {
-      font-family: 'Cormorant Garamond', serif;
-      letter-spacing: -0.01em;
-    }
-    .gold-gradient-text {
-      background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 45%, #D97706 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .rose-gold-gradient-text {
-      background: linear-gradient(135deg, #FFE4E6 0%, #F4B5C6 50%, #E06287 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  </style>
-<style data-purpose="effects">
-    .glass-luxury-plum {
-      background: rgba(26, 15, 36, 0.88);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-    }
-    .gold-border-glow {
-      box-shadow: 0 0 25px -4px rgba(245, 158, 11, 0.3);
-    }
-    .rose-border-glow {
-      box-shadow: 0 0 25px -4px rgba(224, 98, 135, 0.25);
-    }
-
-    /* Scroll Reveal & Smooth Fade-in-up animations */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(28px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .scroll-reveal {
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-      will-change: transform, opacity;
-    }
-
-    .scroll-reveal.is-revealed {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* Hero immediate entrance */
-    .hero-animate-in {
-      animation: fadeInUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    }
-
-    /* Progressive stagger delays */
-    .delay-100 { transition-delay: 100ms; animation-delay: 100ms; }
-    .delay-200 { transition-delay: 200ms; animation-delay: 200ms; }
-    .delay-300 { transition-delay: 300ms; animation-delay: 300ms; }
-    .delay-400 { transition-delay: 400ms; animation-delay: 400ms; }
-    .delay-500 { transition-delay: 500ms; animation-delay: 500ms; }
-
-    @media (prefers-reduced-motion: reduce) {
-      .scroll-reveal {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-      }
-      .hero-animate-in {
-        animation: none !important;
-        opacity: 1 !important;
-        transform: none !important;
-      }
-    }
-  </style>
-<!-- END: Custom Styles -->
-<link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/aida/ALJJyrB1dZFEnX0IqGIA776qu7mAlJ_XiUKic0FumVbIb8c_wpI88RLjKZmna6AJ52NB6rsvYfiCIU6rQNLojMvTEdr8gZy2ybIvGqvd5P4qbyac5CSCk_ad7jRDS1PKZ3KIfiK3B8o9oIPGA7KljC6ICaVh9VVpMTYGIGP8AUCZ2QriW65HNpTtrDZkmiFn2tk2DquDCgNC1WpfUBwuYW2CKVhsIXNFtHEsFwYqROPq32E"><link rel="apple-touch-icon" sizes="180x180" href="https://lh3.googleusercontent.com/aida/ALJJyrDZC6joDe2xN9r9yN0stt_2Cuse2v0u8enwEOxOWMdxXi6AOUuu3OzL3ZsXPB4wZNs2Vjk98dW9eOJd8UXttTfXQh167n8-86njQnnMr_zTRtftMsLXDgBwLEHRin_t8aJD9JET2kb3PpoSLPegjJ0ZpqljqWmMyP64cxBdbIgzsQW90iRPiudiUSF3MCeqzUr_0-vUcFq1S9tegmpEJP_vl6fnwJT1S_AoFLpHslWj"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1a0f2b"><meta name="description" content="Studio de Beleza Marli Ventura em Osasco. Especialista premiada em Liso Fotônico, Cronograma Capilar com Ozonioterapia e estética avançada."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Marli Ventura"></head>
+<title>Studio de Beleza Marli Ventura em Osasco | Tratamentos Capilares</title>
+<meta name="description" content="Conheça o Studio de Beleza Marli Ventura em Osasco (SP). Especialista em Liso Fotônico, alisamento personalizado, cronograma capilar, ozonioterapia e tratamentos para cabelos. Agende pelo WhatsApp.">
+<meta name="keywords" content="Studio de Beleza Marli Ventura, salão de beleza em Osasco, cabeleireira em Osasco, Liso Fotônico, alisamento em Osasco, cronograma capilar, ozonioterapia capilar, tratamento capilar, Santo Antônio Osasco">
+<meta name="author" content="Studio de Beleza Marli Ventura">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://studiomarliventura.vercel.app/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Studio de Beleza Marli Ventura">
+<meta property="og:title" content="Studio de Beleza Marli Ventura em Osasco | Tratamentos Capilares">
+<meta property="og:description" content="Liso Fotônico, alisamento personalizado, cronograma capilar e ozonioterapia em Osasco. Conheça o Studio Marli Ventura e agende seu horário.">
+<meta property="og:url" content="https://studiomarliventura.vercel.app/">
+<meta property="og:image" content="https://studiomarliventura.vercel.app/favicon.svg">
+<meta property="og:image:alt" content="Logo do Studio de Beleza Marli Ventura">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Studio de Beleza Marli Ventura em Osasco">
+<meta name="twitter:description" content="Tratamentos capilares especializados em Osasco. Agende seu horário pelo WhatsApp.">
+<meta name="twitter:image" content="https://studiomarliventura.vercel.app/favicon.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#1a0f2b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Marli Ventura">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "@id": "https://studiomarliventura.vercel.app/#studio",
+  "name": "Studio de Beleza Marli Ventura",
+  "url": "https://studiomarliventura.vercel.app/",
+  "image": "https://studiomarliventura.vercel.app/favicon.svg",
+  "logo": "https://studiomarliventura.vercel.app/favicon.svg",
+  "description": "Studio de beleza em Osasco especializado em Liso Fotônico, alisamento personalizado, cronograma capilar, ozonioterapia e tratamentos capilares.",
+  "telephone": "+55-11-94982-5624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua São Nicolau, 13",
+    "addressLocality": "Osasco",
+    "addressRegion": "SP",
+    "postalCode": "06152-015",
+    "addressCountry": "BR"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Osasco"
+  },
+  "sameAs": [
+    "https://www.instagram.com/studiodebeleza_marliventura/"
+  ],
+  "openingHours": "Mo-Sa 09:00-19:00",
+  "priceRange": "$$",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tratamentos e serviços de beleza",
+    "itemListElement": [
+      {"@type":"OfferCatalog","name":"Liso Fotônico e alisamento personalizado"},
+      {"@type":"OfferCatalog","name":"Cronograma capilar e ozonioterapia"},
+      {"@type":"OfferCatalog","name":"LEDterapia e fotoativação capilar"},
+      {"@type":"OfferCatalog","name":"Botox capilar, cristalização e hidratações"}
+    ]
+  }
+}
+</script>
+</head>
 <body class="bg-[#120b18] text-[#e8def0] font-sans antialiased selection:bg-[#d97706] selection:text-white">
 <!-- BEGIN: MainHeader -->
 <header class="fixed top-0 left-0 w-full z-50 glass-luxury-plum border-b border-[#44225a]/70 transition-all duration-300" data-purpose="site-navigation">
