@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://studiomarliventura.vercel.app/sitemap.xml
