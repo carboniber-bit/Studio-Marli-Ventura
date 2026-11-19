@@ -14,7 +14,8 @@
     function fallback(img) {
       if (!img || img.tagName !== 'IMG' || img.dataset.fb) return;
       img.dataset.fb = '1';
-      img.src = img.dataset.fallback === 'logo' ? '/favicon.svg' : PLACEHOLDER;
+      if (img.dataset.fallback === 'logo') { img.style.display = 'none'; return; }
+      img.src = PLACEHOLDER;
     }
     document.addEventListener('error', function (e) { fallback(e.target); }, true);
     document.addEventListener('DOMContentLoaded', function () {
@@ -90,7 +91,7 @@
 </style>
 <noscript><style>.scroll-reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/favicon.svg"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#FFF6F7"><meta name="description" content="Studio de Beleza Marli Ventura em Osasco. Especialista em Liso Fotônico, alisamento personalizado, cronograma capilar, ozonioterapia e tratamentos capilares. Agende pelo WhatsApp."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Marli Ventura">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#FFF6F7"><meta name="description" content="Studio de Beleza Marli Ventura em Osasco. Especialista em Liso Fotônico, alisamento personalizado, cronograma capilar, ozonioterapia e tratamentos capilares. Agende pelo WhatsApp."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Marli Ventura">
 <meta name="keywords" content="Studio de Beleza Marli Ventura, salão de beleza em Osasco, cabeleireira em Osasco, Liso Fotônico, alisamento em Osasco, cronograma capilar, ozonioterapia capilar, tratamento capilar">
 <meta name="author" content="Studio de Beleza Marli Ventura">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -101,12 +102,12 @@
 <meta property="og:title" content="Studio de Beleza Marli Ventura em Osasco | Tratamentos Capilares">
 <meta property="og:description" content="Liso Fotônico, alisamento personalizado, cronograma capilar e ozonioterapia em Osasco. Conheça o Studio Marli Ventura e agende seu horário.">
 <meta property="og:url" content="https://studiomarliventura.vercel.app/">
-<meta property="og:image" content="https://studiomarliventura.vercel.app/favicon.svg">
+<meta property="og:image" content="https://studiomarliventura.vercel.app/assets/icon-192.png">
 <meta property="og:image:alt" content="Logo do Studio de Beleza Marli Ventura">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Studio de Beleza Marli Ventura em Osasco">
 <meta name="twitter:description" content="Tratamentos capilares especializados em Osasco. Agende seu horário pelo WhatsApp.">
-<meta name="twitter:image" content="https://studiomarliventura.vercel.app/favicon.svg">
+<meta name="twitter:image" content="https://studiomarliventura.vercel.app/assets/icon-192.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -114,8 +115,8 @@
   "@id": "https://studiomarliventura.vercel.app/#studio",
   "name": "Studio de Beleza Marli Ventura",
   "url": "https://studiomarliventura.vercel.app/",
-  "image": "https://studiomarliventura.vercel.app/favicon.svg",
-  "logo": "https://studiomarliventura.vercel.app/favicon.svg",
+  "image": "https://studiomarliventura.vercel.app/assets/icon-192.png",
+  "logo": "https://studiomarliventura.vercel.app/assets/icon-192.png",
   "description": "Studio de beleza em Osasco especializado em Liso Fotônico, alisamento personalizado, cronograma capilar, ozonioterapia e tratamentos capilares.",
   "telephone": "+55-11-94982-5624",
   "address": {
@@ -155,7 +156,7 @@
 <header id="site-header" class="fixed top-0 left-0 w-full z-50 bg-mv-page/95 backdrop-blur border-b border-mv-line transition-shadow duration-300" data-purpose="site-navigation">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
     <a class="flex items-center gap-3 shrink-0" href="#inicio" aria-label="Studio Marli Ventura – voltar ao início">
-      <img alt="" data-fallback="logo" class="h-12 w-12 object-contain rounded-full border border-mv-line bg-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0-lQoXHl2wjDROPnCY7ke0wtPM2ExRwJQvJPIfItiRVfs-QzqVWCXsr7ydRiHPxd9BajRA4P4OT8JCKVVSd_wNnQnjwIVgTL3evORyKmusewYt91eddpzLMZv4cSB6kfIJxy6r-N9-ez2Zu7um_e6xoI-mBuh_QeESTGBHtUfGzvAJHpseAl73Rzh1qRNRdbUe3dTAs9Tw_UDeBONyDC_2uf7hI2IIHPpmzQepG0-MmFs2XyuiQjc">
+      <img alt="" data-fallback="logo" class="h-12 w-12 object-contain rounded-full" src="/assets/logo.png" width="48" height="48">
       <span class="flex flex-col leading-none">
         <span class="text-lg sm:text-xl font-black tracking-wide uppercase text-mv-ink">Marli Ventura</span>
         <span class="text-[11px] uppercase tracking-[0.2em] text-mv-deep font-medium mt-1">Studio de Beleza</span>
@@ -622,7 +623,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
       <div class="space-y-4">
         <div class="flex items-center gap-3">
-          <img alt="" data-fallback="logo" class="w-12 h-12 object-contain rounded-full border border-white/20 bg-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0-lQoXHl2wjDROPnCY7ke0wtPM2ExRwJQvJPIfItiRVfs-QzqVWCXsr7ydRiHPxd9BajRA4P4OT8JCKVVSd_wNnQnjwIVgTL3evORyKmusewYt91eddpzLMZv4cSB6kfIJxy6r-N9-ez2Zu7um_e6xoI-mBuh_QeESTGBHtUfGzvAJHpseAl73Rzh1qRNRdbUe3dTAs9Tw_UDeBONyDC_2uf7hI2IIHPpmzQepG0-MmFs2XyuiQjc">
+          <img alt="" data-fallback="logo" class="w-12 h-12 object-contain rounded-full" src="/assets/logo.png" width="48" height="48">
           <span class="flex flex-col leading-none">
             <span class="text-lg font-black tracking-wide uppercase">Marli Ventura</span>
             <span class="text-[11px] uppercase tracking-[0.2em] text-mv-petal mt-1">Studio de Beleza</span>
